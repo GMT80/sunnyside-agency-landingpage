@@ -6,16 +6,16 @@
 $barlow600: 'Barlow',
 sans-serif;
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300&display=swap');
 
-@mixin fraunces700 {
+@mixin fraunces100 {
     font-family: 'Fraunces', serif;
-    font-weight: 700;
+    font-weight: 100;
 }
 
-@mixin fraunces900 {
+@mixin fraunces300 {
     font-family: 'Fraunces', serif;
-    font-weight: 900;
+    font-weight: 300;
 }
 
 // COLORS

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,4 +11,42 @@ html {
   scroll-behavior: smooth;
   font-size: 62.5%;
   /* Now 10px = 1rem! */
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  height: 100vh;
+  background-image: url("../images/mobile/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wrapper .nav {
+  width: 100vw;
+  padding: 3.2rem 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .header {
+  width: 100vw;
+  text-align: center;
+}
+
+.wrapper .header h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  line-height: 5rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 5rem;
 }
