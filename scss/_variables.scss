@@ -1,0 +1,36 @@
+// LAYOUT
+// Mobile: 375px - Desktop: 1440px
+
+// FONT 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+$barlow600: 'Barlow',
+sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+@mixin fraunces700 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+@mixin fraunces900 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+// COLORS
+
+// Primary
+$softRed: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$graphicDesignText: hsl(167, 40%, 24%);
+$photographyDesign: hsl(198, 62%, 26%);
+$footer: hsl(168, 34%, 41%);
+
+// Neutral
+
+$Verydarkdesaturatedblue: hsl(212, 27%, 19%);
+$Verydarkgrayishblue: hsl(213, 9%, 39%);
+$Darkgrayishblue: hsl(232, 10%, 55%);
+$Grayishblue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
