@@ -1,0 +1,61 @@
+.article {
+
+    max-width: 100vw;
+
+    &_wrapper {
+        padding: 3.2rem 2.4rem;
+    }
+
+    &_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &_title {
+        @include fraunces300;
+        font-size: 2rem;
+        color: $Verydarkdesaturatedblue;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+
+    &_paragraph {
+        font-size: 1.2rem;
+        font-family: $barlow600;
+        color: $Grayishblue;
+        line-height: 2rem;
+        margin: 4.5rem 0 4rem 0;
+        text-align: center;
+        word-spacing: 0.5rem;
+    }
+
+    &_cta {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $barlow600;
+        font-size: 0.9rem;
+        color: $Verydarkdesaturatedblue;
+        letter-spacing: 0.1rem;
+        position: relative;
+
+        &:before {
+            position: absolute;
+            content: "";
+            top: 0.6rem;
+            left: 9rem;
+            width: 35%;
+            height: .7rem;
+            background: hsla(51, 100%, 49%, 0.404);
+            z-index: -1;
+            border-radius: .5rem;
+            transition: .35s;
+        }
+    }
+}
+
+a.red:before {
+    background: hsla(7, 99%, 70%, 0.404);
+}
