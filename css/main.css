@@ -223,3 +223,68 @@ a.red:before {
 .bg-image_paragraph.photography {
   color: #19536b;
 }
+
+.testimonials {
+  padding: 3.2rem 2.4rem;
+}
+
+.testimonials h4 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  color: #a7abae;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3.2rem;
+}
+
+.testimonials .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonials .card img {
+  border-radius: 100%;
+  width: 5rem;
+}
+
+.testimonials .card p {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #5a636c;
+  line-height: 2rem;
+  margin: 2rem 0 2.5rem 0;
+  text-align: center;
+  word-spacing: 0.3rem;
+}
+
+.testimonials .card span {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.testimonials .card small {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  color: #a7abae;
+  font-size: 1rem;
+  margin-top: 0.7rem;
+}
+
+.testimonials:nth-child(3) {
+  background-color: red;
+}
