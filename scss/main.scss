@@ -3,4 +3,56 @@
 @import "partials/_header";
 @import "partials/_article";
 
+.bg-image {
+    height: 40rem;
+    padding: $slavePadding;
 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+
+    &.design {
+        background-image: url(../images/mobile/image-graphic-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+
+    &.photography {
+        background-image: url(../images/mobile/image-photography.jpg
+);
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+
+    &_title {
+        @include title;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+
+        &.design {
+            color: $graphicDesignText;
+        }
+
+        &.photography {
+            color: $photographyDesign;
+        }
+    }
+
+    &_paragraph {
+        @include paragraph;
+        color: $Verydarkdesaturatedblue;
+        font-size: 1.2rem;
+        text-align: center;
+        letter-spacing: 0.05rem;
+        line-height: 1.5rem;
+
+        &.design {
+            color: $graphicDesignText;
+        }
+
+        &.photography {
+            color: $photographyDesign;
+        }
+    }
+}

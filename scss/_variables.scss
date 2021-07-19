@@ -2,20 +2,20 @@
 // Mobile: 375px - Desktop: 1440px
 
 // FONT 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
-$barlow600: 'Barlow',
-sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300&display=swap');
 
-@mixin fraunces100 {
-    font-family: 'Fraunces', serif;
-    font-weight: 100;
+
+@mixin title {
+    font-family: 'Barlow',
+        sans-serif;
+    font-weight: 500;
 }
 
-@mixin fraunces300 {
-    font-family: 'Fraunces', serif;
-    font-weight: 300;
+@mixin paragraph {
+    font-family: 'Barlow',
+        sans-serif;
+    font-weight: 400;
 }
 
 // COLORS
