@@ -35,9 +35,9 @@
     }
 
     &_paragraph {
-        @include paragraph;
         color: $Verydarkdesaturatedblue;
         font-size: 1.2rem;
+        font-family: $barlow;
         text-align: center;
         letter-spacing: 0.05rem;
         line-height: 1.5rem;

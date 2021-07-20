@@ -27,8 +27,8 @@
         }
 
         p {
-            @include paragraph;
             font-size: 1.2rem;
+            font-family: $barlow;
             color: $Verydarkgrayishblue;
             line-height: 2rem;
             margin: 2rem 0 2.5rem 0;
@@ -42,9 +42,9 @@
         }
 
         small {
-            @include paragraph;
             color: $Grayishblue;
             font-size: 1rem;
+            font-family: $barlow;
             margin-top: 0.7rem;
         }
     }

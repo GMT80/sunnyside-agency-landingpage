@@ -59,9 +59,9 @@
                     margin: 3rem 0;
 
                     a {
-                        @include paragraph;
                         color: $Darkgrayishblue;
                         font-size: 1.5rem;
+                        font-family: $barlow;
                         text-decoration: none;
                     }
 
@@ -69,10 +69,11 @@
 
                 &_item:last-child {
                     a {
-                        text-transform: uppercase;
+                        @include paragraph text-transform: uppercase;
                         background-color: $yellow;
                         border-radius: 50px;
                         padding: 1rem 3rem;
+                        color: #000;
                     }
                 }
             }

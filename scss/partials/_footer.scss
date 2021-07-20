@@ -1,6 +1,6 @@
 .footer {
     padding: $slavePadding;
-    background-color: greenyellow;
+    background-color: #99D3C5;
 
     display: flex;
     flex-direction: column;
@@ -17,6 +17,7 @@
 
         .nav-list_item {
             margin: 0 2rem;
+            font-family: $barlow;
 
             a {
                 color: $footer;
@@ -28,5 +29,4 @@
             margin: 0 1rem;
         }
     }
-
 }
