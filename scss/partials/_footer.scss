@@ -1,0 +1,32 @@
+.footer {
+    padding: $slavePadding;
+    background-color: greenyellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .nav-list {
+        margin: 3.2rem 0 5.4rem 0;
+    }
+
+    .nav-list,
+    .nav-list-social {
+        display: inline-flex;
+
+        .nav-list_item {
+            margin: 0 2rem;
+
+            a {
+                color: $footer;
+                text-decoration: none;
+            }
+        }
+
+        .nav-list-social_item {
+            margin: 0 1rem;
+        }
+    }
+
+}

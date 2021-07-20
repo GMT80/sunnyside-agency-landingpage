@@ -4,18 +4,9 @@
 @import "partials/_article";
 @import "partials/_image";
 @import "partials/_testimonials";
+@import "partials/_booklet";
+@import "partials/_footer";
 
 
-.booklet {
 
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
 
-    img {
-        width: 50%;
-    }
-}
