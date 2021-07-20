@@ -44,7 +44,7 @@ body {
 }
 
 .wrapper .header h1 {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 500;
   font-size: 4rem;
   color: white;
@@ -87,7 +87,7 @@ body {
 }
 
 .wrapper .header .mobile-menu .arrow-box_item a {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   color: #818498;
   font-size: 1.5rem;
@@ -113,7 +113,7 @@ body {
 }
 
 .article_title {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 500;
   font-size: 2rem;
   color: #23303e;
@@ -122,7 +122,7 @@ body {
 }
 
 .article_paragraph {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
   color: #5a636c;
@@ -133,7 +133,7 @@ body {
 }
 
 .article_cta {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   display: block;
   text-align: center;
@@ -192,7 +192,7 @@ a.red:before {
 }
 
 .bg-image_title {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 500;
   font-size: 1.8rem;
   margin-bottom: 2rem;
@@ -207,7 +207,7 @@ a.red:before {
 }
 
 .bg-image_paragraph {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   color: #23303e;
   font-size: 1.2rem;
@@ -229,7 +229,7 @@ a.red:before {
 }
 
 .testimonials h4 {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
@@ -255,13 +255,17 @@ a.red:before {
           align-items: center;
 }
 
+.testimonials .card:nth-child(3) {
+  margin: 4.4rem 0;
+}
+
 .testimonials .card img {
   border-radius: 100%;
   width: 5rem;
 }
 
 .testimonials .card p {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
   color: #5a636c;
@@ -272,19 +276,38 @@ a.red:before {
 }
 
 .testimonials .card span {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
 }
 
 .testimonials .card small {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   color: #a7abae;
   font-size: 1rem;
   margin-top: 0.7rem;
 }
 
-.testimonials:nth-child(3) {
-  background-color: red;
+.booklet {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.booklet img {
+  width: 50%;
 }

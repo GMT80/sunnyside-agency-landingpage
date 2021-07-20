@@ -3,56 +3,19 @@
 @import "partials/_header";
 @import "partials/_article";
 @import "partials/_image";
+@import "partials/_testimonials";
 
 
-.testimonials {
-    padding: $slavePadding;
+.booklet {
 
-    h4 {
-        @include title;
-        text-transform: uppercase;
-        text-align: center;
-        color: $Grayishblue;
-        font-size: 1rem;
-        letter-spacing: 0.3rem;
-        margin-bottom: 3.2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    img {
+        width: 50%;
     }
-
-    .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        img {
-            border-radius: 100%;
-            width: 5rem;
-        }
-
-        p {
-            @include paragraph;
-            font-size: 1.2rem;
-            color: $Verydarkgrayishblue;
-            line-height: 2rem;
-            margin: 2rem 0 2.5rem 0;
-            text-align: center;
-            word-spacing: 0.3rem;
-        }
-
-        span {
-            @include paragraph;
-            font-size: 1.2rem;
-        }
-
-        small {
-            @include paragraph;
-            color: $Grayishblue;
-            font-size: 1rem;
-            margin-top: 0.7rem;
-        }
-    }
-}
-
-.testimonials:nth-child(3) {
-    background-color: red;
 }
