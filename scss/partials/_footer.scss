@@ -14,19 +14,30 @@
     .nav-list,
     .nav-list-social {
         display: inline-flex;
+    }
 
-        .nav-list_item {
-            margin: 0 2rem;
-            font-family: $barlow;
+    .nav-list_item {
+        margin: 0 2rem;
+        font-family: $barlow;
 
-            a {
-                color: $footer;
-                text-decoration: none;
-            }
+        a {
+            color: $footer;
+            text-decoration: none;
         }
+    }
 
-        .nav-list-social_item {
-            margin: 0 1rem;
+    .nav-list-social_item {
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 48rem) {
+
+    .footer {
+        .nav-list_item {
+            a:hover {
+                color: $White;
+            }
         }
     }
 }

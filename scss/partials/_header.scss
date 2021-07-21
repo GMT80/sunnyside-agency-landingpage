@@ -12,6 +12,10 @@
 
         display: flex;
         justify-content: space-between;
+
+        .inline-menu {
+            display: none;
+        }
     }
 
     .header {
@@ -89,8 +93,15 @@
         display: none;
     }
 
-    .nav {
-        border: 2px solid red;
+    .wrapper {
+        background-image: url(../../images/desktop/image-header.jpg);
+
+        .nav {
+
+            .inline-menu {
+                display: block;
+            }
+        }
     }
 
     .inline_item {
@@ -103,20 +114,22 @@
             text-decoration: none;
 
             &:hover {
-                opacity: 0.7;
+                opacity: 0.6;
             }
         }
 
-        &:last-child a {
+        .btn {
             color: #000;
             background-color: $White;
             @include title;
             padding: 1rem 2rem;
             border-radius: 5rem;
             text-transform: uppercase;
+            border: none;
 
             &:hover {
                 color: $White;
+                background-color: hsla(0, 100%, 100%, 0.4);
             }
         }
     }

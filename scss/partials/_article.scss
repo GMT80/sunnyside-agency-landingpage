@@ -57,3 +57,55 @@
 a.red:before {
     background: hsla(7, 99%, 70%, 0.404);
 }
+
+@media screen and (min-width: 48rem) {
+
+
+    .article {
+
+        display: flex;
+
+        &_image {
+            width: 50%;
+        }
+
+        &_wrapper {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &_cta {
+
+            &:before {
+                position: absolute;
+                content: "";
+                top: 0.8rem;
+                left: 0;
+                width: 110%;
+                height: .7rem;
+                background: hsla(51, 100%, 49%, 0.404);
+                z-index: -1;
+                border-radius: .5rem;
+                transition: .35s;
+            }
+
+            &:hover {
+
+                &:before {
+                    background: $yellow;
+                }
+            }
+        }
+    }
+}
+
+
+a.red:hover {
+
+    &:before {
+        background: $softRed;
+    }
+}
