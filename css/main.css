@@ -361,7 +361,7 @@ a.red:hover:before {
           align-items: center;
 }
 
-.testimonials .card:nth-child(3) {
+.testimonials .card:nth-child(2) {
   margin: 4.4rem 0;
 }
 
@@ -393,6 +393,27 @@ a.red:hover:before {
   margin-top: 0.7rem;
 }
 
+@media screen and (min-width: 48rem) {
+  .testimonials {
+    padding: 4rem 0;
+  }
+  .testimonials .card-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonials .card-wrapper .card {
+    width: calc(100vw / 3);
+    padding: 0 2.5rem;
+  }
+  .testimonials .card-wrapper .card:nth-child(2) {
+    margin: 0;
+  }
+}
+
 .booklet {
   width: 100%;
   display: -webkit-box;
@@ -414,6 +435,12 @@ a.red:hover:before {
 
 .booklet img {
   width: 50%;
+}
+
+@media screen and (min-width: 48rem) {
+  .booklet img {
+    width: calc(100vw / 4);
+  }
 }
 
 .footer {
@@ -462,5 +489,8 @@ a.red:hover:before {
 @media screen and (min-width: 48rem) {
   .footer .nav-list_item a:hover {
     color: white;
+  }
+  .footer .icon:hover path {
+    fill: white;
   }
 }

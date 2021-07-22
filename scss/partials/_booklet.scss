@@ -11,3 +11,14 @@
         width: 50%;
     }
 }
+
+@media screen and (min-width: 48rem) {
+
+    .booklet {
+
+        img {
+            width: calc(100vw / 4);
+        }
+    }
+
+}

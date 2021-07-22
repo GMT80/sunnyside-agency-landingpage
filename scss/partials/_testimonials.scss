@@ -17,7 +17,7 @@
         justify-content: center;
         align-items: center;
 
-        &:nth-child(3) {
+        &:nth-child(2) {
             margin: 4.4rem 0;
         }
 
@@ -48,4 +48,31 @@
             margin-top: 0.7rem;
         }
     }
+}
+
+@media screen and (min-width: 48rem) {
+
+    .testimonials {
+        padding: 4rem 0;
+
+        .card-wrapper {
+
+            display: flex;
+            justify-content: center;
+
+            .card {
+                width: calc(100vw / 3);
+                padding: 0 2.5rem;
+
+                &:nth-child(2) {
+                    margin: 0;
+                }
+            }
+
+        }
+
+
+    }
+
+
 }

@@ -31,6 +31,7 @@
     }
 }
 
+
 @media screen and (min-width: 48rem) {
 
     .footer {
@@ -38,6 +39,10 @@
             a:hover {
                 color: $White;
             }
+        }
+
+        .icon:hover path {
+            fill: $White;
         }
     }
 }
